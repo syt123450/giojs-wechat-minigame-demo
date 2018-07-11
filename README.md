@@ -5,7 +5,7 @@
 
 <!-- [START screenshot] -->
 <p align="center">
-  <img src="https://raw.githack.com/syt123450/giojs-weixin-minigame-demo/master/assets/wechat_giojs.gif"/>
+  <img src="https://raw.githack.com/syt123450/giojs-wechat-minigame-demo/master/assets/gio_wechat.gif"/>
 </p>
 <!-- [END screenshot] -->
 
