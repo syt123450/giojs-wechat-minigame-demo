@@ -1,4 +1,4 @@
-<p align="center"><a href="https://giojs.org" target="_blank"><img width="100" src="https://raw.githack.com/syt123450/giojs-weixin-minigame-demo/master/assets/logo.png" alt="Gio logo"></a></p>
+<p align="center"><a href="https://giojs.org" target="_blank"><img width="100" src="https://raw.githack.com/syt123450/giojs-wechat-minigame-demo/master/assets/logo.png" alt="Gio logo"></a></p>
 
 <h1 align="center">Gio.js - 微信小游戏使用示例</h1>
 <p align="center">原项目: <a href="https://github.com/syt123450/giojs">giojs</a></p>
@@ -14,6 +14,7 @@
 - [基本说明](#basic)
 - [源码目录介绍](#source)
 - [Gio.js使用方法](#usage)
+- [Gio.js微信版本源码](#gio-source)
 - [证书](#license)
 
 ## <div id="basic">基本说明</div>
@@ -58,7 +59,7 @@ Gio.js提供两种在微信小游戏中的安装方式
 
 ### 使用
 
-Gio.js的使用方法，具体代码在本项目的[game.js](https://github.com/syt123450/giojs-weixin-minigame-demo/blob/master/game.js)文件中。在微信小游戏中，可以对3D地球进行配置，配置方法与网页版的Gio.js相同，了解更多有关这方面的API信息，查看Gio.js [API部分](https://github.com/syt123450/giojs#api-list)。
+Gio.js的使用方法，具体代码在本项目的[game.js](https://github.com/syt123450/giojs-wechat-minigame-demo/blob/master/game.js)文件中。在微信小游戏中，可以对3D地球进行配置，配置方法与网页版的Gio.js相同，了解更多有关这方面的API信息，查看Gio.js [API部分](https://github.com/syt123450/giojs#api-list)。
 
 ```
 import './js/weapp-adapter'
@@ -83,5 +84,9 @@ controller.addData(data);
 controller.init();
 ```
 
+## <div id="gio-source">Gio.js微信版本源码</div>
+
+因为微信小游戏的环境和浏览器的环境并不完全相同，为了编译生成适合微信小游戏环境的Gio.js文件，修改了部分Gio.js的源码，修改后的代码在giojs的[wx分支](https://github.com/syt123450/giojs/tree/wx)中。
+
 ## <div id="license">证书</div>
-[Apache-2.0](https://github.com/syt123450/giojs-weixin-minigame-demo/blob/master/LICENSE)
+[Apache-2.0](https://github.com/syt123450/giojs-wechat-minigame-demo/blob/master/LICENSE)
