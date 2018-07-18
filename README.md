@@ -15,6 +15,7 @@
 - [源码目录介绍](#source)
 - [Gio.js使用方法](#usage)
 - [证书](#license)
+- [感谢](#thanks)
 
 ## <div id="basic">基本说明</div>
 
@@ -85,3 +86,7 @@ controller.init();
 
 ## <div id="license">证书</div>
 [Apache-2.0](https://github.com/syt123450/giojs-weixin-minigame-demo/blob/master/LICENSE)
+
+## <div id="thanks">感谢</div>
+
+特别感谢[@TxOne](https://github.com/TxOne)的技术建议与支持
